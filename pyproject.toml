@@ -1,0 +1,13 @@
+[project]
+name = "residue-physics-lab"
+version = "0.1.0"
+description = "Compute lab: known physics + residue grader. Not propulsion. Not unification."
+requires-python = ">=3.11"
+dependencies = ["numpy"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
