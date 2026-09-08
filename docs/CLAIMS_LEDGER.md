@@ -1,12 +1,11 @@
-# Claims ledger (v0)
+# Claims ledger
 
-Verdict vocabulary matches tt-brown-residue-lab: OPEN / OPEN_NULL / RESIDUE.
-
-| ID | Claim | v0 verdict |
+| ID | Claim | Verdict |
 |---|---|---|
-| EHD-1 air thrust | OPEN |
-| EHD-2 vacuum | OPEN_NULL |
-| GEM-1 Harris floor | OPEN_NULL |
-| LI-1 static YBCO | OPEN_NULL |
-| LI-2 Li/Torr lab B_g | RESIDUE speculative |
-| BR high-K | deferred v0.1 |
+| EHD air | L1 ion wind | OPEN |
+| EHD vacuum | no thrust | OPEN_NULL |
+| GEM Harris L1 | under G/c^2 floor | OPEN_NULL |
+| static vs rotating L1 | glues | OPEN_NULL |
+| L2 Li-scale current on rotating only | restriction fails | RESIDUE speculative |
+| Li static YBCO | no percent drop on L1 | OPEN_NULL |
+| Li toggle lumped | advertised term on | RESIDUE speculative |
